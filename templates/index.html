@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="{% static 'css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'css/home/home.css' %}" />
     <link rel="stylesheet" href="{% static 'css/home/about.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/featured.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/testimonial.css' %}" />
   </head>
   <body>
     <div>
@@ -52,6 +54,55 @@
 
         <div class="homeright">
           <img src="{%static 'assets/bodyimages/1.jpg' %}" alt="Logo" />
+        </div>
+      </div>
+      <div class="programs">
+        <div class="programtop">
+          <h1>Our Programs</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos modi
+            fugit id repudiandae magnam nesciunt voluptatum rem quod aperiam
+            debitis? Iusto iste nam magnam, error dicta sed ex dolore repellat?
+          </p>
+        </div>
+        <div class="programbottom">
+          <div class="programcard">
+            <img
+              src="{% static 'assets/bodyimages/7.jpg' %}"
+              alt="Header Image"
+            />
+            <h3>Program Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              asperiores consequuntur odio modi architecto ipsa fugit tenetur
+              ipsam quis sed!
+            </p>
+          </div>
+          <div class="programcard">
+            <img
+              src="{% static 'assets/bodyimages/7.jpg' %}"
+              alt="Header Image"
+            />
+            <h3>Program Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              asperiores consequuntur odio modi architecto ipsa fugit tenetur
+              ipsam quis sed!
+            </p>
+          </div>
+
+          <div class="programcard">
+            <img
+              src="{% static 'assets/bodyimages/7.jpg' %}"
+              alt="Header Image"
+            />
+            <h3>Program Name</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              asperiores consequuntur odio modi architecto ipsa fugit tenetur
+              ipsam quis sed!
+            </p>
+          </div>
         </div>
       </div>
       <div class="about">
@@ -106,6 +157,78 @@
           </div>
         </div>
       </div>
+      <div class="testimonials">
+        <h1>Testimonials</h1>
+
+        <div class="wrapper">
+          <button class="arrow prev">
+            <img
+              src="{% static 'assets/icons/arrowleft.svg' %}"
+              alt="Previous"
+            />
+          </button>
+          <button class="arrow next">
+            <img src="{% static 'assets/icons/arrowright.svg' %}" alt="Next" />
+          </button>
+          <div class="card-wrapper">
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+            <div class="card-item">
+              <div class="testimonial">
+                <h4>Name</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  ullamcorper scelerisque mi, in malesuada felis malesuada vel.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <script src="{% static 'js/home.js' %}"></script>
   </body>
 </html>
