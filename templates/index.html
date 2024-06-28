@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/home.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/about.css' %}" />
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+        <div class="navleft">
+          <img src="{%static 'assets/logo192.png' %}" alt="Logo" />
+        </div>
+        <div class="navright">
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Programs</li>
+            <li>
+              <a href="" target="blank">
+                <button>Contact Us</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="homemaintop">
+        <div class="homebody">
+          <h1>Prem Mandir Sansthan</h1>
+          <h3>Self-Confident to Self-Reliant</h3>
+        </div>
+      </div>
+
+      <div class="homemain">
+        <div class="homeleft">
+          <h1>Mission Statement</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus
+            in iste, est nihil animi quod, expedita molestias sit amet mollitia
+            natus autem dolor, vitae dignissimos pariatur. Mollitia, inventore
+            nemo ipsum eveniet voluptatum odio iusto nostrum at ea alias illum
+            voluptatem quam beatae expedita doloribus cupiditate molestiae vel
+            sint placeat enim provident. Maxime est culpa nihil non neque et
+            aperiam? Eum.
+          </p>
+          <button>Know More About Us</button>
+        </div>
+
+        <div class="homeright">
+          <img src="{%static 'assets/bodyimages/1.jpg' %}" alt="Logo" />
+        </div>
+      </div>
+      <div class="about">
+        <div class="aboutmain">
+          <div class="abouttop">
+            <div class="abouttopright">
+              <h1>Success Stories</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Doloremque corporis sit eaque dignissimos maxime quidem expedita
+                aut ipsum sequi sunt!
+              </p>
+              <ul>
+                <li>
+                  <div class="aboutlistimage">
+                    <img
+                      src="{%static 'assets/logo192.png' %}"
+                      alt="About Us"
+                    />
+                  </div>
+                  <div class="aboutlistitem">
+                    <h3>Student Name</h3>
+                    <p>
+                      Student Achievements - Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Inventore quis, aspernatur
+                      consequuntur mollitia quas nihil nam nemo! Sed rerum illum
+                      voluptatem. Sed at quaerat harum non labore culpa aut
+                      reiciendis.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="aboutlistimage">
+                    <img
+                      src="{%static 'assets/logo192.png' %}"
+                      alt="About Us"
+                    />
+                  </div>
+                  <div class="aboutlistitem">
+                    <h3>Student Name</h3>
+                    <p>
+                      Student Achievements - Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit. Inventore quis, aspernatur
+                      consequuntur mollitia quas nihil nam nemo! Sed rerum illum
+                      voluptatem. Sed at quaerat harum non labore culpa aut
+                      reiciendis.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

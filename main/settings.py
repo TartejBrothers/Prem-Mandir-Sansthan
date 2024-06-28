@@ -27,7 +27,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "data",
+    "forms",
     "import_export",
 ]
 
@@ -68,7 +68,7 @@ ASGI_APPLICATION = "config.asgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "NG0-Jaipur",
+        "NAME": "NGO-Jaipur",
         "USER": "TartejBrothers",
         "PASSWORD": "ktXcl4BeJ9qW",
         "HOST": "ep-polished-mountain-21340525.ap-southeast-1.aws.neon.tech",

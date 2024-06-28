@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Gilmer-Medium;
+  src: url("../fonts/GilmerMedium.otf");
+}
+
+@font-face {
+  font-family: Gilmer-Bold;
+  src: url("../fonts/GilmerBold.otf");
+}
+@font-face {
+  font-family: Gilmer-Regular;
+  src: url("../fonts/GilmerRegular.otf");
+}
+@font-face {
+  font-family: Gilmer-Light;
+  src: url("../fonts/GilmerLight.otf");
+}
+@font-face {
+  font-family: Gilmer-Heavy;
+  src: url("../fonts/GilmerHeavy.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilmer-Regular";
+}
