@@ -42,3 +42,6 @@ function mouseUpAndLeave() {
   cardWrapper.classList.remove("grab");
   clicked = false;
 }
+
+
+

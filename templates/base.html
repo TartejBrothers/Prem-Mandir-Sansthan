@@ -1,0 +1,115 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Home Page{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/home.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/about.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/featured.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/testimonial.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/forms.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/home/footer.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/about/mission.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/about/profile.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/about/impact.css' %}" />
+  </head>
+  <body>
+    <div>
+      <div class="navbar">
+        <div class="navleft">
+          <img src="{% static 'assets/logo192.png' %}" alt="Logo" />
+        </div>
+        <div class="navright">
+          <ul>
+            <a href="/"><li>Home</li></a>
+            <a href="about"><li>About Us</li></a>
+            <li>Programs</li>
+            <li>
+              <a href="" target="blank">
+                <button>Contact Us</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {% block content %} {% endblock %}
+      <div class="footerwork" id="contact">
+        <div class="footerworkleft">
+          <div class="footerworklefthead">
+            <img src="{% static 'assets/logo192.png' %}" alt="logo" />
+          </div>
+          <div class="footerworkleftside">
+            <h1>Prem Mandir Sansthan</h1>
+          </div>
+          <div class="footerworkleftbody">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              facere ut quas aliquam nostrum laboriosam exercitationem inventore
+              ea, odio corporis.
+            </p>
+          </div>
+        </div>
+        <div class="footerworkright">
+          <div class="footerworkrightbody">
+            <div class="footerworkrightheader">Quick Links</div>
+            <hr class="footerworkrightsplitter" />
+            <ul>
+              <a href="about"><li>> About Us</li></a>
+              <a href=""><li>> Programs</li></a>
+              <a href=""><li>> Contact Us</li></a>
+              <a href=""><li>> Donate</li></a>
+            </ul>
+          </div>
+
+          <div class="footerworkrightbody">
+            <div class="footerworkrightheader">Our Socials</div>
+            <hr class="footerworkrightsplitter" />
+            <p>
+              We are available at all the major social media platforms. Follow
+              us at:
+            </p>
+            <div class="socials">
+              <img
+                src="{% static 'assets/icons/facebookfooter.svg' %}"
+                alt="facebook"
+              />
+              <img
+                src="{% static 'assets/icons/instagram.svg' %}"
+                alt="instagram"
+              />
+              <img
+                src="{% static 'assets/icons/linkedinfooter.svg' %}"
+                alt="linkedin"
+              />
+            </div>
+          </div>
+          <div class="footerworkrightbody">
+            <div class="footerworkrightheader">Reach Out to Us</div>
+            <hr class="footerworkrightsplitter" />
+            <ul>
+              <li>
+                <img
+                  src="{% static 'assets/icons/phone.svg' %}"
+                  alt="phone"
+                />+91 1234567890
+              </li>
+
+              <li>
+                <img
+                  src="{% static 'assets/icons/mail.svg' %}"
+                  alt="mail"
+                  id="mailicon"
+                />
+                trialmail@gmail.com
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="{% static 'js/home.js' %}"></script>
+  </body>
+</html>

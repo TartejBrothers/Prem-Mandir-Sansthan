@@ -10,6 +10,9 @@
 .navleft img {
   height: 40px;
 }
+.navbar a{
+  color: #000000;
+}
 .navright {
   display: flex;
   align-items: center;

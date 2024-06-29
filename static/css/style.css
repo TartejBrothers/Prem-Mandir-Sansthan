@@ -26,3 +26,8 @@
   box-sizing: border-box;
   font-family: "Gilmer-Regular";
 }
+
+a {
+  text-decoration: none;
+}
+

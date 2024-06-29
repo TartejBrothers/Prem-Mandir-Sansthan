@@ -1,0 +1,32 @@
+.impact {
+  padding: 20px;
+}
+.impact h1 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Gilmer-Bold";
+  text-align: center;
+}
+
+.impacttop {
+  display: flex;
+  align-items: center;
+}
+
+.impacttop h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: #ecb406;
+  font-family: "Gilmer-Bold";
+  text-align: center;
+}
+.impacttopleft,
+.impacttopright {
+  width: 50vw;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

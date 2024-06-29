@@ -1,0 +1,51 @@
+.aboutpagetop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.aboutpagetopleft {
+  width: 50vw;
+}
+
+.aboutpagetopright {
+  width: calc(50vw - 80px);
+  position: relative;
+  padding: 20px;
+}
+
+.aboutpagetopleft img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.layer-container {
+  position: relative;
+}
+
+.layertop {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.layerbottom {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  z-index: 1;
+}
+.layerbottom img {
+  height: 60px;
+  opacity: 0.7;
+}
+
+.aboutpagetopright h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #333;
+  font-family: "Gilmer-Bold";
+}
