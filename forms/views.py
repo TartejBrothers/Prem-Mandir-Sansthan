@@ -1,5 +1,15 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from .forms import add_data
+
+from django.contrib import messages
 
 
 def home(request):
-    return render(request, "index.html")
+    form = add_data(request.POST or None)
+    if form.is_valid():
+        form.save()
+        form = add_data()
+        messages.success(request, "Data stored successfully!")
+        return redirect("home")
+    context = {"form": form}
+    return render(request, "index.html", context)

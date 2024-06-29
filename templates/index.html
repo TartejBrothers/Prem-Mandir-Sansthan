@@ -243,6 +243,17 @@
           <button>Donate Now</button>
         </div>
       </div>
+      <div class="volunteer">
+        <h1>Volunteer</h1>
+        <div class="volunteerform">
+          <form method="POST">
+            {% csrf_token %} {{form.as_p}}
+            <div class="submitbutton">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <script src="{% static 'js/home.js' %}"></script>
   </body>

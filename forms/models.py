@@ -1,3 +1,8 @@
 from django.db import models
 
-# Create your models here.
+
+class Database(models.Model):
+    name = models.TextField()
+    email = models.EmailField()
+    phone = models.BigIntegerField()
+    skills = models.TextField()
