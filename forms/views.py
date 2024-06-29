@@ -9,7 +9,11 @@ def home(request):
     if form.is_valid():
         form.save()
         form = add_data()
-        messages.success(request, "Data stored successfully!")
+        messages.info(request, "Data stored successfully!")
         return redirect("home")
     context = {"form": form}
-    return render(request, "index.html", context)
+    return render(request, "home.html", context)
+
+
+def about(request):
+    return render(request, "about.html")
