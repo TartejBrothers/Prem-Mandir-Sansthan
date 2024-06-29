@@ -38,7 +38,7 @@
 }
 
 .volunteer {
-  padding: 20px 20px 40px 20px;
+  padding: 40px 20px 40px 20px;
   background-color: #232323;
   color: #ffffff;
   display: flex;
@@ -81,4 +81,25 @@
   border-radius: 5px;
   font-size: 20px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .donation p {
+    width: 80%;
+  }
+  .donation h1 {
+    font-size: 40px;
+  }
+  .donation button {
+    font-size: 16px;
+  }
+  .volunteer h1 {
+    font-size: 40px;
+  }
+  .volunteer .form-control {
+    padding: 10px;
+  }
+  .volunteerform button {
+    font-size: 16px;
+  }
 }
