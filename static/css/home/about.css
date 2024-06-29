@@ -153,3 +153,31 @@
   opacity: 1;
   transform: translateY(0);
 }
+
+@media screen and (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+  }
+  .abouttopright h1 {
+    font-size: 40px;
+  }
+  .abouttop {
+    flex-direction: column;
+  }
+  .abouttopright {
+    width: 100%;
+  }
+  .abouttopright ul li {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .aboutlistitem p {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  .aboutlistimage {
+    margin-right: 0;
+  }
+ 
+}

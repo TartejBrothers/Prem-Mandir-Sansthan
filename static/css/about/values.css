@@ -1,5 +1,5 @@
 .values {
-  height: 100vh;
+  height: 100dvh;
 }
 .valuestop,
 .valuesmiddle,
@@ -47,4 +47,12 @@
 }
 .valuesmiddle .valuecard:nth-child(even) h3 {
   margin-top: 0;
+}
+@media screen and (max-width: 1000px) {
+  .valuecard h3 {
+    font-size: 14px;
+  }
+  .valuecard img {
+    height: 80px;
+  }
 }

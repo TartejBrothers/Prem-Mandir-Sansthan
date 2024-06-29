@@ -39,3 +39,36 @@
 .impactbottom img {
   max-width: 300px;
 }
+@media screen and (max-width: 1000px) {
+  .impact h1 {
+    font-size: 40px;
+  }
+  .impacttopleft h1,
+  .impacttopright h1 {
+    font-size: 30px;
+  }
+  .impacttop h1 {
+    font-size: 50px;
+  }
+  .impacttopleft,
+  .impacttopright {
+    width: 100vw;
+  }
+  .impactbottom {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .impactbottomgraphs {
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 300px;
+    flex-direction: column;
+  }
+  .impactbottom img {
+    width: 100%;
+  }
+}

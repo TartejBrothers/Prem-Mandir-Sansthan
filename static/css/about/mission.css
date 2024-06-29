@@ -41,6 +41,7 @@
 .layerbottom img {
   height: 60px;
   opacity: 0.7;
+  margin-right: -15px;
 }
 
 .aboutpagetopright h1 {
@@ -48,4 +49,38 @@
   font-weight: 700;
   color: #333;
   font-family: "Gilmer-Bold";
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutpagemain {
+    width: 100vw;
+    overflow: hidden;
+  }
+  .aboutpagetop {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .aboutpagetopleft {
+    width: 100%;
+  }
+  .aboutpagetopright {
+    width: 100%;
+    padding: 30px;
+  }
+  .layer-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .layertop h1 {
+    font-size: 40px;
+  }
+  .layerbottom {
+    top: -7.5px;
+    left: calc(50% - 140px);
+  }
+  .layerbottom img {
+    height: 30px;
+    margin-right: -5px;
+  }
 }

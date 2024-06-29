@@ -35,3 +35,13 @@
   font-size: 18px;
   font-family: "Gilmer-Medium";
 }
+
+@media screen and (max-width: 1000px) {
+  .partnercard {
+    width: 80%;
+    max-width: 300px;
+  }
+  .partner h1 {
+    font-size: 40px;
+  }
+}

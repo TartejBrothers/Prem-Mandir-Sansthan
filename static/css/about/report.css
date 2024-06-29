@@ -33,3 +33,13 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1000px) {
+  .report h1 {
+    font-size: 40px;
+  }
+  .report button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
