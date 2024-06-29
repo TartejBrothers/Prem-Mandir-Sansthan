@@ -30,3 +30,12 @@
   justify-content: center;
   flex-direction: column;
 }
+.impactbottomgraphs {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.impactbottom img {
+  max-width: 300px;
+}

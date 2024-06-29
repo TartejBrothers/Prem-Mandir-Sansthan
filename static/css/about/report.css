@@ -1,0 +1,35 @@
+.report {
+  margin-top: 30px;
+
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+.report h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Gilmer-Bold";
+}
+.report button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #edb408;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: calc(50% - 60px);
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+.reportrow {
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
