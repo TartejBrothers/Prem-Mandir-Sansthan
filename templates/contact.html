@@ -3,137 +3,137 @@
 {% load static %}
 <!>
 {% block title %} Contact Us {% endblock %}
-<div??!>
-  {% block content %}
-  <div class="contactmain">
-    <div class="contactinfo">
-      <h1>Reach Us At</h1>
-      <div class="contactrow">
-        <div class="contactcard">
-          <img src="{% static 'assets/icons/address.png' %}" alt="Adress" />
-          <h3>Address</h3>
+<!>
+{% block content %}
+<div class="contactmain">
+  <div class="contactinfo">
+    <h1>Reach Us At</h1>
+    <div class="contactrow">
+      <div class="contactcard">
+        <img src="{% static 'assets/icons/address.png' %}" alt="Adress" />
+        <h3>Address</h3>
+        <p>
+          Address Line 1 <br />
+          Address Line 2 <br />
+          City, State, Zip <br />
+          Country
+        </p>
+      </div>
+      <div class="contactcard">
+        <img src="{% static 'assets/icons/mobile.png' %}" alt="Adress" />
+        <h3>Phone</h3>
+        <p>
+          1234567890<br />
+          2345678901
+        </p>
+      </div>
+      <div class="contactcard">
+        <img src="{% static 'assets/icons/mail.png' %}" alt="Adress" />
+        <h3>Mail</h3>
+        <p>mail@gmail.com</p>
+      </div>
+    </div>
+  </div>
+  <div class="volunteer">
+    <h1>Contact</h1>
+    <div class="volunteerform">
+      <form method="POST">
+        {% csrf_token %} {{ form.as_p }}
+        <div class="submitbutton">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="contactmap">
+    <h1>Locate Us</h1>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.1952116478474!2d75.83266347638299!3d26.897299076656303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6ea2e1d6197%3A0x6ff84a31c646a281!2sPrem%20Mandir%20Sansthan!5e0!3m2!1sen!2sin!4v1719750957176!5m2!1sen!2sin"
+      width="80%"
+      height="500px"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+  <div class="visit">
+    <h1>Visit Us</h1>
+    <div class="visitbody">
+      <div class="visitleft">
+        <h3>We are available for visits during this time</h3>
+        <ul>
+          <li>Days : Monday to Friday</li>
+          <li>Time : 10 AM to 5 PM</li>
+          <li>Any other instruction</li>
+        </ul>
+      </div>
+      <div class="visitright">
+        <img src="{% static 'assets/bodyimages/6.jpg' %}" alt="Visit" />
+      </div>
+    </div>
+  </div>
+  <div class="faq">
+    <h1>Frequently Asked Questions</h1>
+    <div class="faqbody">
+      <div class="faqquestion">
+        <div class="faqleft">
+          <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
+        </div>
+        <div class="faqright">
+          <h3>What is the process to volunteer?</h3>
           <p>
-            Address Line 1 <br />
-            Address Line 2 <br />
-            City, State, Zip <br />
-            Country
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
         </div>
-        <div class="contactcard">
-          <img src="{% static 'assets/icons/mobile.png' %}" alt="Adress" />
-          <h3>Phone</h3>
+      </div>
+      <div class="faqquestion">
+        <div class="faqleft">
+          <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
+        </div>
+        <div class="faqright">
+          <h3>What is the process to volunteer?</h3>
           <p>
-            1234567890<br />
-            2345678901
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
         </div>
-        <div class="contactcard">
-          <img src="{% static 'assets/icons/mail.png' %}" alt="Adress" />
-          <h3>Mail</h3>
-          <p>mail@gmail.com</p>
+      </div>
+      <div class="faqquestion">
+        <div class="faqleft">
+          <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
+        </div>
+        <div class="faqright">
+          <h3>What is the process to volunteer?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <div class="faqquestion">
+        <div class="faqleft">
+          <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
+        </div>
+        <div class="faqright">
+          <h3>What is the process to volunteer?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
         </div>
       </div>
     </div>
-    <div class="volunteer">
-      <h1>Contact</h1>
-      <div class="volunteerform">
-        <form method="POST">
-          {% csrf_token %} {{ form.as_p }}
-          <div class="submitbutton">
-            <button type="submit">Submit</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="contactmap">
-      <h1>Locate Us</h1>
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.1952116478474!2d75.83266347638299!3d26.897299076656303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db6ea2e1d6197%3A0x6ff84a31c646a281!2sPrem%20Mandir%20Sansthan!5e0!3m2!1sen!2sin!4v1719750957176!5m2!1sen!2sin"
-        width="80%"
-        height="500px"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </div>
-    <div class="visit">
-      <h1>Visit Us</h1>
-      <div class="visitbody">
-        <div class="visitleft">
-          <h3>We are available for visits during this time</h3>
-          <ul>
-            <li>Days : Monday to Friday</li>
-            <li>Time : 10 AM to 5 PM</li>
-            <li>Any other instruction</li>
-          </ul>
-        </div>
-        <div class="visitright">
-          <img src="{% static 'assets/bodyimages/6.jpg' %}" alt="Visit" />
-        </div>
-      </div>
-    </div>
-    <div class="faq">
-      <h1>Frequently Asked Questions</h1>
-      <div class="faqbody">
-        <div class="faqquestion">
-          <div class="faqleft">
-            <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
-          </div>
-          <div class="faqright">
-            <h3>What is the process to volunteer?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div class="faqquestion">
-          <div class="faqleft">
-            <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
-          </div>
-          <div class="faqright">
-            <h3>What is the process to volunteer?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div class="faqquestion">
-          <div class="faqleft">
-            <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
-          </div>
-          <div class="faqright">
-            <h3>What is the process to volunteer?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-        <div class="faqquestion">
-          <div class="faqleft">
-            <img src="{% static 'assets/icons/question.png' %}" alt="FAQ" />
-          </div>
-          <div class="faqright">
-            <h3>What is the process to volunteer?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    {% endblock %}
-  </div></div??!
->
+  </div>
+</div>
+<script src="{% static 'js/contact.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,44 @@
+.programsectiontwo {
+  padding: 30px 20px;
+  background: #f9f9f9;
+  width: 100%;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.programsectiontwoleft,
+.programsectiontworight {
+  width: 50%;
+}
+
+.programsectiontwoleft img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.programsectiontworight {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.programsectiontworight h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Gilmer-Bold";
+}
+
+@media screen and (max-width: 1000px) {
+  .programsectiontwo {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .programsectiontwoleft,
+  .programsectiontworight {
+    width: 100%;
+  }
+}

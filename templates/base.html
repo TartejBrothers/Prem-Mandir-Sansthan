@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="{% static 'css/contact/map.css' %}" />
     <link rel="stylesheet" href="{% static 'css/contact/visit.css' %}" />
     <link rel="stylesheet" href="{% static 'css/contact/faq.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/program/sectionone.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/program/sectiontwo.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/program/sectionthree.css' %}" />
   </head>
   <body>
     <div>
@@ -33,7 +36,8 @@
           <ul>
             <a href="/"><li>Home</li></a>
             <a href="about"><li>About Us</li></a>
-            <li>Programs</li>
+            <a href="program"><li>Programs</li></a>
+
             <li>
               <a href="contact">
                 <button>Contact Us</button>
@@ -53,9 +57,9 @@
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="about">About</a></li>
-          <li><a href="#">Programs</a></li>
+          <li><a href="program">Programs</a></li>
           <li>
-            <a href="" target="blank">
+            <a href="contact" target="blank">
               <button>Contact Us</button>
             </a>
           </li>
@@ -83,8 +87,9 @@
             <div class="footerworkrightheader">Quick Links</div>
             <hr class="footerworkrightsplitter" />
             <ul>
+              <a href="/"><li>> Home</li></a>
               <a href="about"><li>> About Us</li></a>
-              <a href=""><li>> Programs</li></a>
+              <a href="programs"><li>> Programs</li></a>
               <a href="contact"><li>> Contact Us</li></a>
               <a href=""><li>> Donate</li></a>
             </ul>

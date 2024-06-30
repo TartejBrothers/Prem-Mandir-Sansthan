@@ -19,6 +19,10 @@ def about(request):
     return render(request, "about.html")
 
 
+def program(request):
+    return render(request, "program.html")
+
+
 def contact(request):
     form = add_contact(request.POST or None)
     if form.is_valid():
