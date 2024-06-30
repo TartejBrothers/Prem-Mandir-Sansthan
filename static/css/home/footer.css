@@ -60,12 +60,15 @@
 }
 .footerworkrightbody a {
   color: #fff;
+  display: flex;
+  width: fit-content;
   text-decoration: none;
 }
 .footerwork ul li {
   display: flex;
   align-items: center;
   gap: 10px;
+  width: fit-content;
   margin-bottom: 15px;
 }
 .footerwork ul li img {

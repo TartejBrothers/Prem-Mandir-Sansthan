@@ -1,0 +1,54 @@
+.faq {
+  padding: 30px;
+}
+.faq h1 {
+  font-size: 50px;
+  margin: 1rem;
+  font-family: "Gilmer-Bold";
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faqbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+.faqquestion {
+  width: 80%;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+.faqright h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: "Gilmer-Medium";
+}
+
+.faqright p {
+  font-size: 20px;
+  font-family: "Gilmer-Regular";
+}
+
+@media screen and (max-width: 1000px) {
+  .faqquestion {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .faqright {
+    width: 100%;
+  }
+  .faqright h3 {
+    font-size: 25px;
+  }
+  .faqright p {
+    font-size: 18px;
+  }
+}
